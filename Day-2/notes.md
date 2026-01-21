@@ -9,22 +9,22 @@
 - Generated SSH keys
 
 ## Commands practiced
-ls -l
-chmod
-chown
-useradd
-passwd
-groupadd
-usermod
-ssh-keygen
+- ls -l
+- chmod
+- chown
+- useradd
+- passwd
+- groupadd
+- usermod
+- ssh-keygen
 
 ## Files
-backup
-hello.sh
-images
-my_file.txt
-notes.md
-permission_lab.txt
-secure_folder
-teamfile.txt
+- backup
+- hello.sh
+- images
+- my_file.txt
+- notes.md
+- permission_lab.txt
+- secure_folder
+- teamfile.txt
 
