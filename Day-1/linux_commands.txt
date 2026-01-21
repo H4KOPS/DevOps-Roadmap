@@ -1,0 +1,11 @@
+ls - list a file or a directory
+cd - change a directory
+mkdir - make a directory
+rmdir - remove a directory
+cp - copy a file or folder
+mv - move a file or folder
+rm - remove a file or folder
+pwd - To see the path of the current directory
+touch - to create a empty file
+cat - concatenate > to view the content inside a file in the terminal
+echo - It prints the given information in the terminal or if given > to a file, it will print in the terminal and save in the file.
