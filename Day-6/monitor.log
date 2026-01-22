@@ -1,0 +1,8 @@
+grep: app.log: No such file or directory
+Errors found: 
+/home/cypher/dev-ops/roadmap/Day-6/log_monitor.sh: line 8: [: : integer expression expected
+Log looks normal ✅️
+grep: app.log: No such file or directory
+Errors found: 
+/home/cypher/dev-ops/roadmap/Day-6/log_monitor.sh: line 8: [: : integer expression expected
+Log looks normal ✅️
