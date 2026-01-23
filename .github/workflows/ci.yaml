@@ -3,6 +3,8 @@ name: Day 9 - CI Demo
 on:
   push:
     branches: ["main"]
+  pull_request:
+    branches: ["main"]
 
 jobs:
   run-shell-script:
