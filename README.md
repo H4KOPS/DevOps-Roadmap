@@ -59,6 +59,6 @@ resources/   # useful links
 ```
 ---
 
-🔗 Connect with me
+## 🔗 Connect with me
 
 LinkedIn: https://www.linkedin.com/in/preetham-pereira
