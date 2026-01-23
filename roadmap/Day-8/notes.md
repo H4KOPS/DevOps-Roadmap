@@ -1,22 +1,17 @@
-# Markdown Practice (Day-8)
+# Week 1 Summary (Days 1–7)
 
-## Heading
-### Subheading
+## Topics Covered
+- Linux basics (files, permissions, users)
+- Processes and services (ps, systemctl)
+- Logs (journalctl, /var/log)
+- Networking basics (IP, DNS, ports)
+- HTTP basics + firewall (ufw)
+- Bash scripting + cron
+- Git basics + branching
 
-**Bold text**
-*Italic text*
+## My Key Takeaways
+- Linux is the foundation for cloud and DevOps
+- Permissions and SSH are critical for security
+- Logs are the first place to troubleshoot issues
+- Automation with bash saves time
 
-## Lists
-- Linux
-- Git
-- Docker
-
-## Steps
-1. Install Ubuntu
-2. Learn commands
-3. Practice Daily
-
-## Code block
-```bash
-ls -la
-pwd
