@@ -56,6 +56,8 @@ roadmap/     # daily learning notes + labs
 projects/    # major projects
 notes/       # quick revision notes
 resources/   # useful links
+```
+---
 
 🔗 Connect with me
 
