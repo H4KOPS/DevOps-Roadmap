@@ -2,17 +2,16 @@ name: Day 9 - CI Demo
 
 on:
   push:
-      branches: ["main"]
+    branches: ["main"]
 
 jobs:
   run-shell-script:
     runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
 
-  steps:
-    - name: Checkout Code
-      users: actions/checkout@v4
-
-    - name: Run hello script
-      run:
-        chmod +x projects/Day-9/CI-Demo/hello.sh
-        ./projects/Day-9/CI-Demo/hello.sh
+      - name: Run hello script
+        run: |
+          chmod +x projects/Day-9/CI-Demo/hello.sh
+          ./projects/Day-9/CI-Demo/hello.sh
