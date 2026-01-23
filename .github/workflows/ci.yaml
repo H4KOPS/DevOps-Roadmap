@@ -17,6 +17,7 @@ jobs:
       - name: Check bash shebang
         run: |
           head -n 1 projects/Day-9/CI-Demo/hello.sh | grep "#!/bin/bash"
+
       - name: Checkout Code
         uses: actions/checkout@v4
 
