@@ -8,6 +8,7 @@ on:
 
 env:
   APP_NAME: devops-ci-demo
+  ENVIRONMENT: dev
 
 jobs:
   build_test:
@@ -21,7 +22,13 @@ jobs:
         run: |
           echo "App Name: $APP_NAME"
           echo "Runner OS: $RUNNER_OS"
-
+      - name: Test build output exists
+        runs: |
+          test -f projects/Day-10/demo-build/output/build.txt
+          echo "Test Passed ✅️"
+      - name: Debug files
+        runs: |
+          ls -R
       - name: Run Day-9 script
         run: |
           chmod +x projects/Day-9/CI-Demo/hello.sh
