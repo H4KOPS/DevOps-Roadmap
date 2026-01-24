@@ -1,0 +1,9 @@
+__pycache/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+.git/
+.github/
