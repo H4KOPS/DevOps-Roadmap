@@ -23,11 +23,11 @@ jobs:
           echo "App Name: $APP_NAME"
           echo "Runner OS: $RUNNER_OS"
       - name: Test build output exists
-        runs: |
+        run: |
           test -f projects/Day-10/demo-build/output/build.txt
           echo "Test Passed ✅️"
       - name: Debug files
-        runs: |
+        run: |
           ls -R
       - name: Run Day-9 script
         run: |
