@@ -24,7 +24,7 @@ jobs:
           echo "Runner OS: $RUNNER_OS"
       - name: Test build output exists
         run: |
-          test -f projects/Day-10/demo-build/output/build.txt
+          test -f projects/Day-10/build-demo/output/build.txt
           echo "Test Passed ✅️"
       - name: Debug files
         run: |
@@ -36,8 +36,8 @@ jobs:
 
       - name: Run build script
         run: |
-          chmod +x projects/Day-10/demo-build/build.sh
-          ./projects/Day-10/demo-build/build.sh
+          chmod +x projects/Day-10/build-demo/build.sh
+          ./projects/Day-10/build-demo/build.sh
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
