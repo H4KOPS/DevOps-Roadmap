@@ -22,32 +22,19 @@ jobs:
           echo "App Name: $APP_NAME"
           echo "Runner OS: $RUNNER_OS"
 
-
-
-name: Day 9 - CI Demo
-
-on:
-  push:
-    branches: ["main"]
-  pull_request:
-    branches: ["main"]
-
-jobs:
-  run-shell-script:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check script exists
-        run: |
-          test -f projects/Day-9/CI-Demo/hello.sh
-
-      - name: Check bash shebang
-        run: |
-          head -n 1 projects/Day-9/CI-Demo/hello.sh | grep "#!/bin/bash"
-
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Run hello script
+      - name: Run Day-9 script
         run: |
           chmod +x projects/Day-9/CI-Demo/hello.sh
           ./projects/Day-9/CI-Demo/hello.sh
+
+      - name: Run build script
+        run: |
+          chmod +x projects/Day-10/demo-build/build.sh
+          ./projects/Day-10/demo-build/build.sh
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifacts@v4
+        with:
+          name: build-output
+          path: projects/Day-10/build-demo/output/build.txt
+
