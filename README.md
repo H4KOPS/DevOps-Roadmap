@@ -35,7 +35,7 @@ All daily work is inside the `roadmap/` folder.
 ### Week 2 — GitHub + CI/CD Intro
 - [x] Day 8: Markdown + README setup
 - [x] Day 9: GitHub Actions basics
-- [ ] Day 10: Build/Test workflow
+- [x] Day 10: Build/Test workflow
 - [ ] Day 11: Docker intro
 - [ ] Day 12: Dockerfile + image build
 - [ ] Day 13: Docker Compose basics
